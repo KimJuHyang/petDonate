@@ -1,0 +1,296 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js" charset="utf-8"></script>
+  <script charset="utf-8" type="text/javascript" src="script.js"></script>
+  <title>김주향 20163100</title>
+ </head>
+
+ <body onload="imgChange()">
+
+		<div id="top" class="navi" >
+			<ul>
+				<li class="left" ><a href="#introduce">
+
+About Us</a></li>
+				<li class="left"><a href="#donate">Donate</a></li>
+
+				<a href="index.html"><img  class="navi-logo"src="img/logo_dog.png" alt=""></a>
+				<li class="right"><a href="Q&A.html">Q&A</a></li>
+				<li class="right"><a href="#map">
+Search</a></li>
+
+			</ul>
+		</div>
+
+
+		<div class="share"></div>
+
+		<div class="side-bar">
+			<a href="http://www.facebook.com" target=0; ><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="img/facebook.png" alt="facebook" title="facebook"></a>
+			<a href="http://www.instagram.com" target=0;><img
+			onmouseenter="bigger(this)" onmouseleave="normal(this)"
+			src="img/Instagram.png" alt="Instagram" title="instagram"></a>
+			<a href="http://www.twitter.com" target=0; title="twitter"><img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="img/twitter.png"  alt="twitter"></a>
+			<a href="http://www.kakaotalk.com" target=0;><img
+			onmouseenter="bigger(this)" onmouseleave="normal(this)" src="img/Kakaotalk.png" title="kakaotalk"  alt="Kakaotalk"></a>
+			<a href="http://www.naver.com" target=0; > <img onmouseenter="bigger(this)" onmouseleave="normal(this)" src="img/line.png" alt="line" title="Line"></a>
+		</div>
+
+		<div class="top-button">
+			<a href="#top"><img src="img/top.png" width="100" height="auto" alt=""></a>
+		</div>
+
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			<img src="img/main.jpg" width="100%" height="100%" alt="">
+			</div>
+
+
+			<div class="mySlides fade">
+			<img src="img/main3.jpg" width="100%" height="100%" alt="">
+			</div>
+
+			<div class="mySlides fade">
+			<img src="img/main1.jpg" width="100%" height="100%" alt="">
+			</div>
+
+		<div style="text-align:center" >
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+		</div>
+
+
+
+
+		</div>
+
+
+
+	<div class="box1" id="donate">
+		<br><br><br>
+		한해 버려지는 아이들이 수도없이 많습니다<br>
+		이제 유기견보호소는 포화상태입니다<br>
+		여러분들이 도와주셔야합니다<br>
+	</div>
+
+		<div id="box2" class="box2">
+			<br>
+			<a class="box-header1">저희에게 기부 해주세요</a>
+			<br><br><br>
+
+
+				<img onmouseenter="view1(true)" onmouseleave="view1(false)"  class= "box2img" src="img/newspaper.png" border="0" alt=""></a>
+				<img  onmouseenter="view2(true)" onmouseleave="view2(false)" class= "box2img" src="img/bed.png" border="0" alt="">
+				<img  onmouseenter="view3(true)" onmouseleave="view3(false)" class="box2img" src="img/dress.png" border="0" alt="">
+				<img  onmouseenter="view4(true)" onmouseleave="view4(false)" class="box2img" src="img/cash.png"border="0" alt="">
+
+				<br>
+
+				<div class="box2p">
+				<p>신문지</p>
+				<p>헌 이불</p>
+				<p>헌 옷</p>
+				<p>기부금</p>
+				<br><br><br><br>
+
+				<p style="font-size : 20px;"> [ 아이콘에 마우스를 올려보세요! ] </p>
+				</div>
+
+
+			<div id="spec1" style="position:absolute; display:none; left:270px; top:1280px;">
+				<div class="popup">
+				<img src="img/dog-newspaper.gif" width="250px" height="auto">
+				<br>
+				아이들에게 신문지는 꼭 필요합니다!
+				</div>
+			</div>
+
+			<div id="spec2" style="position:absolute; display:none; left:570px; top:1290px;">
+				<div class="popup">
+				<img src="img/dogs bed.gif" width="auto" height="auto">
+				<br>
+				따뜻한 이불을 선물 해 주세요
+				</div>
+			</div>
+
+			<div id="spec3" style="position:absolute; display:none; left:850px; top:1290px;">
+				<div class="popup">
+				<img src="img/dress.gif" width="250px" height="auto">
+				<br>
+				아이들에게 옷을 선물해주세요
+				</div>
+			</div>
+
+			<div id="spec4" style="position:absolute; display:none; left:1150px; top:1290px;">
+				<div class="popup">
+				<img src="img/happy.gif" width="250px" height="auto">
+				<br>
+				아이들이 너무 좋아해요!
+				</div>
+			</div>
+		</div>
+
+
+		<div id="introduce" class="box3">
+
+				<p class="box-header2">저희 회사는 이런일을 하고 있습니다</p><br>
+				<p class="text1">작지만 의미있는 기부를 하고싶으신 분</p>
+				<p class="text2">기부를 하고싶은데 막막하신분</p>
+				<p class="text3">간편히 기부하고 싶은데 번거로우셨던 분</p>
+				<p class="text4">체계적이고 투명한 기부를 하고싶으신 분</p><br>
+
+				<center><img id="intro-button" src="img/down-button.png"></center>
+
+				<div id="intro-animate">
+					<center><img class="box3-img" src="img/box.png" border="0" alt="">
+					<img class="arrow" src="img/arrow.png" border="0" alt="">
+					<img class="box3-img" src="img/truck.png" border="0" alt="">
+					<img class="arrow" src="img/arrow.png" border="0" alt="">
+					<img class="box3-img" src="img/house.png" border="0" alt=""></center>
+					</br>
+
+					<center>
+					<p class="small-text">1. 사무실로 기부물품을 택배로 보내주시면</p>
+					<p class="small-text">2. 검품/정리하여 전국의 보호소로 직접 배달합니다</p>
+					<p class="small-text">3. 기부내역은 언제든지 투명하게 조회 가능합니다</p>
+					</center>
+					</div>
+
+				<div class="box3-1">
+				<br>
+					<p class="box-header2">30초만에 기부 접수하기</p><br>
+
+					<center>
+					<span id="txt1"> 신문지 &nbsp;<input id="news" type="radio" name="1" value="O"></span>
+                   <span id="txt2">  헌 옷 &nbsp;<input  id="o2"  type="radio" name="1" value="O"></span>
+                   <span id="txt3">   기부금 &nbsp;<input  id="o3"  type="radio" name="1" value="O"></span>
+
+                   <span id="txt4"> 헌 이불<input  id="o4"  type="radio" name="1" value="O"></span>
+						<br>  <br>
+					<input id ="post" type="button" value="접수하기">
+
+					<br> <br>
+					<textarea style="text-align:center" id ="give" rows="0px" cols="100px"></textarea>
+					</center>
+				</div>
+
+
+		</div>
+
+		<div id="map" class="box4">
+		<div class="box4-con">
+			<p class="box-header3"> 전국 유기견 보호소 검색하기</p>
+			<img id="maps" src="img/map0.png" width="519" height="568" border="0" alt="">
+
+				<form>
+					<p style="text-align:center"> 원하는 지역을 선택해보세요 </p>
+					<select id="sel" name="sel" onchange="change(this.value)" >
+						<option value="0" selected>=============지역찾기=============</option>
+						<option value="1">서울</option>
+						<option value="2">경기도</option>
+						<option value="3">충청도</option>
+						<option value="4">강원도</option>
+						<option value="5">전라도</option>
+						<option value="6">경상도</option>
+						<option value="7">제주도</option>
+					</select>
+
+
+				</form>
+
+				<table class="mytable">
+					<p><tr>
+						<th>관할구역</th></p>
+						<th>보호센터명</th>
+						<th>전화번호</th>
+						<th>보호센터주소</th>
+					</tr></p>
+
+					<tr>
+						<td>서울특별시 은평구</td>
+						<td>오거리동물병원</td>
+						<td>02-306-0158</td>
+						<td>서울특별시 은평구 가좌로 232</td>
+					</tr>
+
+					<tr>
+						<td>서울특별시 영등포구</td>
+						<td>야생동물구조협회</td>
+						<td>021-296-0124</td>
+						<td>서울특별시 영등포구 여의동로3길 10</td>
+					</tr>
+
+					<tr>
+						<td>경기도 의정부시</td>
+						<td>땡큐애니멀스</td>
+						<td>032-7727-8899</td>
+						<td>경기도 의정부시 추동로 9</td>
+					</tr>
+
+					<tr>
+						<td>경기도 파주시</td>
+						<td>운정한빛동물병원</td>
+						<td>055-931-7975</td>
+						<td>경상남도 합천군 합천읍 옥산로 16</td>
+					</tr>
+
+					<tr>
+						<td>광주광역시 동구</td>
+						<td>튼튼동물병원</td>
+						<td>062-511-7852</td>
+						<td>광주광역시 동구 중앙로 358</td>
+					</tr>
+
+					<tr>
+						<td>인천광역시 연수구</td>
+						<td>송도건국동물병원</td>
+						<td>032-811-2220</td>
+						<td>인천광역시 연수구 송도문화로 28번길</td>
+					</tr>
+
+					<tr>
+						<td>전라남도 곡성군</td>
+						<td>푸른곡성 동물보호소</td>
+						<td>061-363-8807</td>
+						<td>전라남도 곡성군 곡성읍 묘천덕동길</td>
+					</tr>
+
+					<tr>
+						<td>부산광역시 사하구</td>
+						<td>유기동물및동물보호협회</td>
+						<td>051-971-6208</td>
+						<td>부산광역시 강서구 가락대로 128번길</td>
+					</tr>
+
+					<tr>
+						<td>경상북도 영천시</td>
+						<td>영천유기동물보호센터</td>
+						<td>054-339-7176</td>
+						<td>경상북도 영천시 화남면 신선로 310</td>
+					</tr>
+
+					<tr>
+						<td>경기도 남양주시</td>
+						<td>남양주동물보호협회</td>
+						<td>031-591-7720</td>
+						<td>경기도 남양주시 금곡로 44번길</td>
+					</tr>
+
+				</table>
+			</div>
+		</div>
+
+		<div class="footer">
+		<p> 20163100<br>
+		KIM JU HYNAG<br>
+		TEL: 010-9764-5502 &nbsp; Office: Hyoseo, Gyeyang-gu, Incheon, Korea&nbsp;KOOKMIN UNIVERSITY<br>
+		○ Copyright(c)2017 KIM-JU-HYANG All rights reserved</p>
+		</div>
+
+  <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
